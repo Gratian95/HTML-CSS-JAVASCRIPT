@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML+CSS+JAVASCRIPT</title>
+		<link rel="stylesheet" href="HTML+CSS+JAVASCRIPT.css">
+		<script src="HTML+CSS+JAVASCRIPT.js"></script>
+	</head>
+	<body>
+		<div class="div_text">
+			<p id="culoare_text" onclick="changeColor()" ondblclick="changeColor_4()"> By clicking here the color of the text will change to yellow. By double-click it will return to its default color.</p>
+		</div>
+		<div class="div_text_2">
+			<p id="culoare_text_2" onmouseover="changeColor_2()" onmouseleave="changeColor_3()"> If you mouse over this text, its color will change to red.</p>
+		</div>
+		<div class="div_text_3">
+			<p id="marime_text" onmouseover="change_text_size()" onmouseleave="change_text_size_1()"> If you mouse over here, the size of the text will increase.</p>
+		</div>
+		<div class="div_select_box">
+			<p id="titlu_select_box">Here you can change the background color.</p>
+			<div class="select_box">
+				<select id="selectID" onchange="select_box(event)">
+					<option value="0">Select color:</option>
+					<option value="1">Brown</option>
+					<option value="2">Green</option>
+					<option value="3">White</option>
+				</select>
+			</div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+	background: DarkSlateBlue;
+	}
+.div_text {
+	display: flex; 
+	background-color: grey; 
+	margin-top:20px; 
+	}
+#culoare_text {
+	font-size: 22.5px;
+	}
+.div_text_2 {
+	display: flex; background-color: grey; margin-top:20px; 
+	}
+#culoare_text_2 {
+	font-size: 22.5px;
+	}
+.div_text_3 {
+	display: flex; background-color: grey; margin-top:20px;
+	}
+#marime_text {
+	font-size: 22.5px
+	;}
+.select_box {
+	display:flex; margin-top: 22.5px;
+	}
+#titlu_select_box {
+	display:flex; margin-top: 22.5px; font-size:22.5px;
+	}
+
+
